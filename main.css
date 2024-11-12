@@ -90,6 +90,7 @@ label.error {
     }
 
     #list-dif h5{
-        border-bottom: 1px solid #98092b;
+        color: rgb(216, 216, 42);
+        border-bottom: 1px solid rgb(216, 216, 42) ;
     }
 }

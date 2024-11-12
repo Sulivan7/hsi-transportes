@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", sans-serif
+}
+
+.navbar {
+    background-color: #98092b;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #98092b;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Montserrat", sans-serif
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+
+#sobre,
+#diferencial {
+    background-color: #566981;
+    color: #fff;
+}
+
+#servicos, #fale-conosco {
+    background: #ffeae6
+}
+
+#diferenciais{
+    background-color: #566981;
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+#list-dif{
+    font-size: 18px;
+}
+
+.text-colored {
+    color: #98092b;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #98092b;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #98092b;
+}
+
+textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+label.error {
+    display: block;
+    color: red;
+    margin-top: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #list-dif h5{
+        border-bottom: 1px solid #98092b;
+    }
+}
